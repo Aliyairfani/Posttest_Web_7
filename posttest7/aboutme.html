@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>about me</title>
+    <link rel="icon" href="btlprfm.webp">
+</head>
+<body>
+    <nav class="wrapper">
+        <div class="brand">
+            <div class="first">review</div>
+            <div class="last">perfume</div>
+        </div>
+        <ul class="nav">
+            <li><a href="index.php">home</a></li>
+            <li><a href="aboutme.html">about me</a></li>
+            <li><a href="signup.php" class="daftar">sign up</a></li>
+        </ul>
+    </nav>
+    <div id="theme">
+        <div onclick="setDarkMode(true)" id="darkBtn" class="icon"><img src="ikon.webp"></div>
+        <div onclick="setDarkMode(false)" id ="lightBtn" class="is-hidden"><img src="ikon.webp" color = "white"></div>
+    </div>
+    <div class="fContainer">
+    <div class="tagline">
+        <div class="foto">
+            <img src="fotoaku.jpg" alt="">
+        </div>
+        <b>
+        <br>
+        <p>Nama      :   Aliya Irfani<br>  
+           Kelas     :   Informatika A 2021 <br>
+           Tempat Tanggal Lahir : Samarinda, 28 Maret 2003<br>
+           Alamat    :   Samarinda, Kal-Tim
+        </p>  
+        </b>
+        <script>
+            document.getElementsByClassName('tagline')[0].onclick = ucapan
+                
+            function ucapan (){
+                document.getElementsByClassName('tagline')[0].style.fontStyle = 'italic';
+            }
+        </script>    
+    </div>
+    </div>
+    <footer>
+        Copyright &copy; 2022
+        Designed by AliyaIrfani
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

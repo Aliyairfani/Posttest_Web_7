@@ -1,0 +1,157 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: "fantasy", sans-serif;
+}
+
+body{
+    background-image: url(gambar/bgweb.jpg);
+}
+.fContainer{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5vw;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    height:100%;
+    background-color: #748DA6;
+    box-shadow: 0 7px 15px 0 rgba(0 0 0 0.5);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.first{
+    color: #F2D7D9;
+    font-weight: 700;
+}
+
+.last{
+    color: aliceblue;
+    padding-left: 4px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav li{
+    list-style: none;
+    padding: 15px;
+}
+
+.nav li a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.nav li a:hover{
+    color: #D3CEDF;
+    transition: all .4s ease-in-out;
+}
+
+.nav li a daftar{
+    color: #D3CEDF;
+    transition: all .4s ease-in-out;
+}
+
+#theme{
+    width: 0;
+    height: 0;
+    position: fixed;
+    margin-left: 95%;
+}
+
+#theme img{
+    width: 35px;
+}
+
+.darkmode {
+    background-image: url(gambar/gelap.jpg);
+    color : aliceblue;
+}
+
+.tagline {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.tagline p{
+    color: aliceblue;
+    font-family: 'fantasy', sans-serif;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#pendaftaran{
+    margin-top: 15%;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.cari{
+    margin-left: 2%;
+    position: relative;
+    height:35px;
+    width: 12vw;
+    margin-top:2vw;
+    background-color: #748DA6;
+    border: 1px solid rgb(12, 12, 12);
+    box-shadow: 23px 19px 60px rgba(255, 255, 255, 0.6); 
+}
+
+.button{
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid rgb(7, 7, 7);
+    background-color: #748DA6;
+    color: white;
+}
+
+.button:hover{
+    background-color: #748DA6;
+    color:#0a0a0a;
+    transition: 0.4s ease;
+}
+
+.foto img{
+    width: 11vw;
+    align-items: center;
+}
+
+::placeholder{
+    color: white;
+}
+
+footer {
+    line-height: 50px;
+    background: #748DA6;
+    color: #D3CEDF;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: optional;
+}
